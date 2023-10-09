@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+  }
+
+
+ 
+.container {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.screen {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: white;
+    gap: 5px
+}
