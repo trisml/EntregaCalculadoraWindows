@@ -8,24 +8,25 @@
 </head>
 <body>
     <div class="container">
-        <p class="screen">0</p>
+            <div id ="screen" class="screen">0</div>
+       
+    
         
-        
-        <button id="percentageButton" class="oper">%</button>
+        <button id="buttonPercentage" class="oper">%</button>
 
-        <button id="piButton" class="oper" >&pi;</button>
+        <button id="buttonPi" class="oper" onclick=pi()>π</button>
 
-        <button id="clearButton" class="oper">C</button>
+        <button id="buttonClear" class="oper" >C</button>
 
-        <button id="borrar" class="oper">⌫</button>
+        <button id="buttonBorrar" class="oper">⌫</button>
 
-        <button id="inverseButton" class="oper">1/x</button>
+        <button id="buttonInverse" class="oper" onclick=fraction()>1/x</button>
 
-        <button id="squareButton" class="oper"> x² </button>
+        <button id="squareButton" class="oper" onclick=square()> x² </button>
 
-        <button id="sqrtButton" class="oper">√</button>
+        <button id="buttonSqrt" class="oper">√</button>
 
-        <button id="divideButton" class="oper">/</button>
+        <button id="buttonD" class="oper">/</button>
 
         <button id="button7" class="btn">7</button>
 
@@ -33,7 +34,7 @@
 
         <button id="button9" class="btn">9</button>
 
-        <button id="multiplyButton" class="oper">x</button>
+        <button id="buttonM" class="oper">x</button>
 
         <button id="button4" class="btn">4</button>
 
@@ -41,7 +42,7 @@
 
         <button id="button6" class="btn">6</button>
 
-        <button id="minusButton" class="oper">-</button>
+        <button id="buttonMinus" class="oper">-</button>
 
         <button id="button1" class="btn">1</button>
 
@@ -49,22 +50,23 @@
 
         <button id="button3" class="btn">3</button>
 
-        <button id="plusButton" class="oper">+</button>
+        <button id="buttonPlus" class="oper">+</button>
 
-        <button id="signButton" class="btn">+/<sup>-</sup></button>
+        <button id="signButton" class="btn" onclick=changeSign()>+/-</button>
 
         <button id="button0" class="btn">0</button>
 
-        <button id="decimalButton" class="btn">,</button>
+        <button id="decimalButton" class="btn" onclick=agregarDecimal()>,</button>
 
-        <button id="equalButton" class="igual">=</button>
-
-    </div>
-
-
-
-
+        <button id="button" class="btn">=</button>
 
     </div>
+
+
+
+
+
+    <script src="scripts.js"></script>
+
 </body>
 </html>
